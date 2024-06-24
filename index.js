@@ -1,4 +1,5 @@
 // backend/index.js
+require("dotenv").config();
 const videoRoute = require("./routes/videoRoute");
 const express = require("express");
 const cors = require("cors");
